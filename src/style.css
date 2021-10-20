@@ -1,0 +1,32 @@
+:root {
+	--c-border: #a5a5a5;
+	--c-text: #a5a5a5;
+	--c-dark: #555;
+	--c-bg: rgb(1, 1, 1);
+	--c-bg-transparent: rgb(1, 1, 1, 0.3);
+}
+
+html,
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 0.75rem;
+	background-color: var(--c-dark);
+}
+
+.css-renderer {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 10px;
+	width: 10px;
+	display: block;
+}
+
+.css-label {
+	color: var(--c-text);
+}
